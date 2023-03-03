@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(authRoutes);
 
-const mongoUri = 'mongodb+srv://bmarin:passwordpassword@cluster0.gsdjbuj.mongodb.net/?retryWrites=true&w=majority'
+const mongoUri = <YOUR_MONGO_ATLAS_KEY/>
 mongoose.connect(mongoUri);
 mongoose.connection.on('connected', () => {
   console.log('Connected to mongo instance');
