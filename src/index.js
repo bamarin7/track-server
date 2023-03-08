@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(authRoutes);
 
-const mongoUri = <YOUR_MONGODB_URI>
+const mongoUri = YOUR_MONGODB_URI
 mongoose.connect(mongoUri);
 mongoose.connection.on('connected', () => {
   console.log('Connected to mongo instance');
