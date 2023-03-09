@@ -1,3 +1,3 @@
 # track-server
 
-Building a server with MongoDB, JWT, and different routes
+Building a custom Express API including the use of MongoDB and JWT.
